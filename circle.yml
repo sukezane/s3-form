@@ -3,7 +3,7 @@ machine:
     Asia/Tokyo
 
 dependencies:
-    override:
+    pre:
         - sudo pip install awscli
     post:
         - aws configure set region ap-northeast-1
